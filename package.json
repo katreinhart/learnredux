@@ -6,7 +6,8 @@
   "scripts": {
     "test": "karma start",
     "start": "node server.js",
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --watch"
   },
   "author": "Kat Reinhart",
   "license": "MIT",
